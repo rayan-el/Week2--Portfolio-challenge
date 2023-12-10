@@ -14,12 +14,12 @@
   <!-- main logo / nav -->
   <div class="header">
   <header>
-    <h1>Hi, I'm Rayan</h1>
+    <h1 id="rayan">Rayan El</h1>
     <nav>
       <ul>
-        <li><strong>About Me</strong><a id="about"></li>
-        <li><strong>Work</strong><a id="work"></li>
-        <li><strong>Contact Me</strong><a id="contact"></li>
+        <li><a href="#about"><strong>About Me</strong></a></li>
+        <li><a href="#work"><strong>Work</strong></a></li>
+        <li><a href="#contact"><strong>Contact Me</strong></a></li>
         </ul>
     </nav> 
     </header>
@@ -31,37 +31,55 @@
     <!-- about me -->
     <section class="page-section-about" id="about">
       <h2>About Me</h2>
+      <h3>Freelance FrontEnd Developer</h3>
+      <img src="/images/avatar-img1.png" width="25%" height="50%">
+      <p>sdfhsajkfhsaliufyuisafhsdkjfbasj<br>fajshfsalifguasihfsajkfsajfa-flip-horizontal
+      fkahsjfkhsajkf<br>asldfhlksdhflasuhfslaufhasjfhaskjfhsakjfhksjahf</p>
     </section>
 
     <!-- portfolio container -->
-    <secion>
- <h2>Work</h2>
-
+    <secion id="work">
+      <div><h2>My Work</h2></div>
     <section class="page-section-work">
       <div id="for-businesses" class="work-item">
       <h3>For Businesses</h3>
-      <a href="https://www.wikipedia.org"><img src="/images/02-portfolio-1.jpg"></a>
+      <a href="https://www.wikipedia.org"><img class="image" src="/images/02-portfolio-1.jpg" width="75%" height="75%"></a>
 </div>
 
 <div id="e-commerce" class="work-item">
   <h3>E-commerce</h3>
-  <a href="https://www.wikipedia.org"><img src="/images/02-portfolio-2.jpg"></a>
+  <a href="https://www.wikipedia.org"><img class="image" src="/images/02-portfolio-2.jpg" width="75%" height="75%"></a>
 </div>
 
 <div id="for-startups" class="work-item">
   <h3>For Startups</h3>
-  <a href="https://www.wikipedia.org"><img src="/images/02-portfolio-4.jpg"></a>
+  <a href="https://www.wikipedia.org"><img class="image" src="/images/02-portfolio-4.jpg" width="75%" height="75%"></a>
 </div>
 
 <div id="portfolios" class="work-item">
   <h3>Portfolios</h3>
-  <a href="https://www.wikipedia.org"><img src="/images/02-portfolio-3.jpg"></a>
+  <a href="https://www.wikipedia.org"><img class="image" src="/images/02-portfolio-3.jpg" width="75%" height="75%"></a>
 </div>
     </section>
     </secion>
 
       <section class="page-section-contact" id="contact">
         <h2>Contact Me</h2>
+<p>Leave me a message or directly email me!</p>
+
+<div class="column">
+          <form action="">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+            <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+            </form>
+            </div>
+            <div>Email me at:<a href = "mailto: rayan.nagi@yahoo.co.uk">Rayan.nagi@yahoo.co.uk</a></div>
+            <div>Check out my GitHub:<a href="https://github.com/rayan-el"> Rayan-el</a></div>
       </section>
   </main>
 </body>
